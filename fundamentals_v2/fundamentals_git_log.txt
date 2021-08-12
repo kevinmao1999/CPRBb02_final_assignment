@@ -1,0 +1,85 @@
+#Version 1
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git init
+Initialized empty Git repository in C:/Users/shimm/Downloads/CPR101-main/CPR101-main/.git/
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git status
+On branch master
+
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fundamentals.c
+        fundamentals.h
+        main.c
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git add .\fundamentals.c .\fundamentals.h .\main.c
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git commit -m "version1"
+Author identity unknown
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git config --global user.email mshim12@myseneca.ca
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git config --global user.name "Myungwoo Shim"      
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git status
+On branch master
+
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   fundamentals.c
+        new file:   fundamentals.h
+        new file:   main.c
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        helloWorld.c
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git commit -m "version1"
+ 3 files changed, 50 insertions(+)
+ create mode 100644 fundamentals.c
+ create mode 100644 fundamentals.h
+ create mode 100644 main.c
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git log
+commit 1a7e5cb21cb2349540c01aab566eae09652c5492 (HEAD -> master)
+Author: Myungwoo Shim <mshim12@myseneca.ca>
+Date:   Tue Aug 10 01:49:37 2021 -0400
+
+ version1
+
+
+
+
+#Version 2
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git add .\fundamentals.c
+warning: LF will be replaced by CRLF in fundamentals.c.
+The file will have its original line endings in your working directory
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git commit -m "version2"
+[master 5153f25] version2
+ 1 file changed, 13 insertions(+)
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        CPR101/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PS C:\Users\shimm\Downloads\CPR101-main\CPR101-main> git log
+commit 5153f252ff09dfe853f509808db9e52147cc496b (HEAD -> master)
+Author: Myungwoo Shim <mshim12@myseneca.ca>
+Date:   Tue Aug 10 02:18:45 2021 -0400
+
+    version2
+
+commit 1a7e5cb21cb2349540c01aab566eae09652c5492
+Author: Myungwoo Shim <mshim12@myseneca.ca>
+Date:   Tue Aug 10 01:49:37 2021 -0400
+
+    version1
+:

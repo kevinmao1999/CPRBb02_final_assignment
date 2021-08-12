@@ -23,15 +23,17 @@ void fundamentals ()
             printf("                                 is \'%c\'\n", buffer1[position]);   //printf the value stored in certain index
         }
     }
-    printf("*** End of Indexing Strings Demo ***\n\n");
+    printf("*** End of Indexing Strings Demo ***\n\n"); // end of version 1
+
+    //Fundamentals v2
     printf("*** Start of Measuring Strings Demo ***\n");
-    char buffer2[80];
-    while (TRUE)
+    char buffer2[80]; // char array size of 79 initialized
+    while (TRUE) // enter while loop
     {
-        printf("Type a string (q- to quit) :\n");
-        gets(buffer2);
-        if (strcmp(buffer2, "q")==0) break;
-        printf ("The length is %lu\n", strlen(buffer2));
+        printf("Type a string (q- to quit) :\n"); 
+        gets(buffer2); // gets() Reads characters from the standard input(stdin) and stores them as a C string into str until a newline character or the end - of - file is reached.
+        if (strcmp(buffer2, "q")==0) break; //quit if buffer2 matches to be q
+        printf ("The length is %lu\n", strlen(buffer2)); // display message with length of char array
     }
     printf("*** End of Measuring Strings Demo *** \n\n");
 }

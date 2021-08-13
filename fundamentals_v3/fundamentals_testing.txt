@@ -1,0 +1,26 @@
+*** Start of Copying Strings Demo ***
+New destination string is 'Hello World':
+Destination string is reset to empty
+Type a source string (q - to quit: 
+Hello
+New destination string is 'Hello':
+Destination string is reset to empty
+Type a source string (q - to quit: 
+CPR101 Final Project
+New destination string is 'CPR101 Final Project':
+Destination string is reset to empty
+Type a source string (q - to quit: 
+Fundamentals Version 3 is ready
+New destination string is 'Fundamentals Version 3 is ready':
+Destination string is reset to empty
+Type a source string (q - to quit: 
+Good luck on next semester
+New destination string is 'Good luck on next semester':
+Destination string is reset to empty
+Type a source string (q - to quit: 
+Thank you 
+New destination string is 'Thank you ':
+Destination string is reset to empty
+Type a source string (q - to quit: 
+q    
+*** End of Copying Strings Demo ***

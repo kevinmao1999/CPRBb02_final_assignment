@@ -1,0 +1,121 @@
+
+danie@Billy MINGW64 ~
+$ cd onedrive/documents/assignments
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments
+$ cd Semester\ 1/
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1
+$ cd CPR101/Group\ project/group\ project/v2
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2 (master)
+$ cd CPRBb02_final_assignment/
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git add .
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git config user.email "dcancio1@myseneca.ca"
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git congig user.name "deeooh"
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git config user.name "deeooh"
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git commit -m tokenizing_v2
+[main 225c114] tokenizing_v2
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ rename tokenizing.h => tokenizing v2/tokenizing.h (100%)
+ rename tokenizing_test_cases_v2.xlsx => tokenizing v2/tokenizing_test_cases_v2.xlsx (100%)
+ rename tokenizing_v2.c => tokenizing v2/tokenizing_v2.c (100%)
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git push origin main
+To https://github.com/kevinmao1999/CPRBb02_final_assignment.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kevinmao1999/CPRBb02_final_assignment.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 1), reused 5 (delta 1), pack-reused 0
+Unpacking objects: 100% (5/5), 631 bytes | 57.00 KiB/s, done.
+From https://github.com/kevinmao1999/CPRBb02_final_assignment
+ * branch            main       -> FETCH_HEAD
+   03a7f2b..007b034  main       -> origin/main
+Removing fundamentals_v2.c
+Removing fundamentals_test_cases.xlsx
+Removing fundamentals_git_log.txt
+Removing fundamentals.c
+Removing README.md
+Merge made by the 'recursive' strategy.
+ README.md                    |   1 -
+ fundamentals.c               |  28 --------------
+ fundamentals.h               |  13 +++++++
+ fundamentals_git_log.txt     |  85 -------------------------------------------
+ fundamentals_test_cases.xlsx | Bin 13236 -> 0 bytes
+ fundamentals_v2.c            |  26 -------------
+ 6 files changed, 13 insertions(+), 140 deletions(-)
+ delete mode 100644 README.md
+ delete mode 100644 fundamentals.c
+ create mode 100644 fundamentals.h
+ delete mode 100644 fundamentals_git_log.txt
+ delete mode 100644 fundamentals_test_cases.xlsx
+ delete mode 100644 fundamentals_v2.c
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git push origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 29.86 KiB | 14.93 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/kevinmao1999/CPRBb02_final_assignment.git
+   007b034..62c508b  main -> main
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ ls
+ fundamentals.h     'tokenizing v2'/   tokenizing_test_cases.xlsx
+ fundamentals_v1.c   tokenizing.c
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git add .
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ git push origin main
+Everything up-to-date
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)
+$ ^C
+
+danie@Billy MINGW64 ~/onedrive/documents/assignments/Semester 1/CPR101/Group project/group project/v2/CPRBb02_final_assignment (main)

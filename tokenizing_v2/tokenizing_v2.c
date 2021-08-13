@@ -4,7 +4,7 @@
 
 
 void tokenizing() {
-	printf("*** Start of Tokenizing Words Demo ***\n"); // Welcome message for the application
+	printf("*** Start of Tokenizing Phrases Demo ***\n"); // Welcome message for the application
 	// variables that are required for the applications to work
 	char phrases[200]; // string that can save up to 200 characters
 	char* phrase;

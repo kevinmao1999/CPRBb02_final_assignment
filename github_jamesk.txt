@@ -1,0 +1,47 @@
+James K
+
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\James>cd C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2>cd C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2>git add .
+warning: adding embedded git repository: CPRBb02_final_assignment
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> CPRBb02_final_assignment
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached CPRBb02_final_assignment
+hint:
+hint: See "git help submodule" for more information.
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2>cd C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2>git add .
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   CPRBb02_final_assignment
+        deleted:    TestingV2 James Kapogiannis.txt
+        deleted:    main.c
+        deleted:    manipulating.h
+        deleted:    manipulating_v2.c
+        deleted:    test case templateV2.xlsx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   CPRBb02_final_assignment (untracked content)
+
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\V2>

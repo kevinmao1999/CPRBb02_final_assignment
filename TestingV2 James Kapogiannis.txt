@@ -1,0 +1,18 @@
+Test 1
+Test one was a simple test to see how the program ran with respect to comparing the strings that the user entered. The first string entered was 121212121212 and the second string entered was 343434343434. This yielded the correct result that the first string was less than the second string showing that the program did indeed work.
+
+Test 2
+Test number two was done with characters instead of numbers. The first set of characters that were was abcdefg, and the second string that was entered was hijklmnop. This yielded the correct result that the first string was less than the second. 
+
+
+Test number 3
+Test number 3 was another simple one although I added spaces and also made the number a little larger. The first string entered was 800 000 000, and the second string entered was 400 000 000. This yielded the correct result that the first string was greater than the second. 
+
+
+
+Test 4
+Test four was done in the manner of seeing how the program operated under different rules. The first string that was entered was !@#$%^&*(, while the second string that was entered was 123456789. This yielded the result of the first string being less than the second one. As there is no way to directly correlate symbols that hold a number value in this instance I would say that this was a fail and did not yield the correct results.
+
+
+Test 5
+Test number 3 was done with the sole purpose of testing to see how the string would react if the user entered more than 80 characters or numbers in either of the given strings with the limit of 80 characters or numbers per string. This yielded an expected result of the program ending after the second string was entered.

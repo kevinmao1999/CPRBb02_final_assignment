@@ -1,0 +1,168 @@
+commit 1770250ebb3da24c1215ab1e81f72cdf5ae52215
+Author: Myungwoo <mshim12@myseneca.ca>
+Date:   Fri Aug 13 16:43:53 2021 -0400
+
+    fundamentals_v3
+
+commit c74a8403494460bbe5e9564860501128a01d80e2
+Author: JamesTKapo <jamesTkapogiannis@gmail.com>
+Date:   Fri Aug 13 00:35:24 2021 -0400
+
+    jamesk new
+
+commit c7f367ed170d0d5579613814c1db56fccb8105c8
+Merge: e8c1d5b 587a4f6
+Author: JamesTKapo <jamesTkapogiannis@gmail.com>
+Date:   Fri Aug 13 00:19:23 2021 -0400
+
+    Merge branch 'main' of https://github.com/kevinmao1999/CPRBb02_final_assignment
+
+commit e8c1d5b7aa7d79aac220a1612e7a4266cf843d51
+Author: JamesTKapo <jamesTkapogiannis@gmail.com>
+Date:   Fri Aug 13 00:15:39 2021 -0400
+
+    jamesk
+
+commit 587a4f6984c2871238708f4e2c5ba90317b68c66
+Merge: 80774b3 df66b0b
+Author: deeooh <dcancio1@myseneca.ca>
+Date:   Wed Aug 11 23:03:15 2021 -0400
+
+    Merge branch 'main' of https://github.com/kevinmao1999/CPRBb02_final_assignment
+    tokenizing_v3
+
+commit 80774b3717cfe03d524c2f023c083a57ade39842
+Author: deeooh <dcancio1@myseneca.ca>
+Date:   Wed Aug 11 23:02:19 2021 -0400
+
+    tokenizing_v3
+
+commit df66b0b592bb19eb9ac0da384d861f1ca5d24142
+Author: Myungwoo <mshim12@myseneca.ca>
+Date:   Wed Aug 11 22:53:55 2021 -0400
+
+    fundamentals_v2 modified
+
+commit bc6ed9e61e12d996a091687b450cdb23058e31a6
+Author: Myungwoo <mshim12@myseneca.ca>
+Date:   Wed Aug 11 22:49:45 2021 -0400
+
+    fundamentals v2
+
+commit 1ac44a085dc6c05ccdd76a3526af9657cda48ab6
+Author: Myungwoo Shim <myungwooshim@gmail.com>
+Date:   Wed Aug 11 22:46:46 2021 -0400
+
+    fundamentals v1
+
+commit 266f48a9ee34e3d31ced58515c327a5cfc200d15
+Author: kmao <kevinmao1999@gmail.com>
+Date:   Wed Aug 11 22:37:11 2021 -0400
+
+    first commit of converting v3
+
+commit e0e72eda6968be022b77f5f41a520efa66e15790
+Author: kmao <kevinmao1999@gmail.com>
+Date:   Wed Aug 11 22:26:07 2021 -0400
+
+    converting_v2 commit
+
+commit b87232917517856497b86bdeef1e666d83b914c9
+Author: JamesTKapo <jamesTkapogiannis@gmail.com>
+Date:   Wed Aug 11 22:20:07 2021 -0400
+
+    manipulating v2
+
+commit 62c508b929eef21deb5d90d1bcee047b8c07eb20
+Merge: 225c114 007b034
+Author: deeooh <dcancio1@myseneca.ca>
+Date:   Wed Aug 11 22:14:41 2021 -0400
+
+    Merge branch 'main' of https://github.com/kevinmao1999/CPRBb02_final_assignment
+    
+    Need to upload tokenizing v2
+
+commit 007b03418eb6442e762e7f51450b3f33820a46d8
+Author: Myungwoo Shim <myungwooshim@gmail.com>
+Date:   Wed Aug 11 22:13:47 2021 -0400
+
+    verson1
+
+commit 225c11410b1d08cd0028477dc0700b5bac7b2f28
+Author: deeooh <dcancio1@myseneca.ca>
+Date:   Wed Aug 11 22:13:41 2021 -0400
+
+    tokenizing_v2
+
+commit 605522d0f5692a727a12f3b51000305a96111a55
+Author: Daniel Cancio <dcanseeo@gmail.com>
+Date:   Wed Aug 11 22:09:10 2021 -0400
+
+    tokenizing v2
+
+commit 6521854d413e89cf39cd322ebfe7708de0bb4054
+Author: Myungwoo Shim <myungwooshim@gmail.com>
+Date:   Wed Aug 11 22:08:00 2021 -0400
+
+    fundamentals v1
+
+commit 03a7f2b0b779c990f4e3d4f54cfe571f055b7983
+Merge: 86e7228 25025d7
+Author: Myungwoo Shim <myungwooshim@gmail.com>
+Date:   Wed Aug 11 22:02:08 2021 -0400
+
+    Merge branch 'main' of https://github.com/kevinmao1999/CPRBb02_final_assignment
+
+commit 86e7228ac8680fadc5a0748b786142cbb40c4d51
+Author: Myungwoo Shim <myungwooshim@gmail.com>
+Date:   Wed Aug 11 22:01:47 2021 -0400
+
+    fundamentals v2 and test
+
+commit 25025d7b3224ec5329df26d83cd4eaaa58d83942
+Author: kevinmao1999 <86262180+kevinmao1999@users.noreply.github.com>
+Date:   Wed Aug 11 22:01:31 2021 -0400
+
+    Delete main.c
+
+commit db3a9bc4a01d1670e0cfe011b9c4428d2c70de17
+Author: kevinmao1999 <86262180+kevinmao1999@users.noreply.github.com>
+Date:   Wed Aug 11 22:01:18 2021 -0400
+
+    Delete fundamentals.h
+
+commit 2b68a57fa67923c3a6b39ac501748fdcf9bb9414
+Author: kevinmao1999 <86262180+kevinmao1999@users.noreply.github.com>
+Date:   Wed Aug 11 22:01:14 2021 -0400
+
+    Delete converting_v2.c
+
+commit 46bbe07dc919c61b1aaa1f9c86f734455dc23afa
+Author: kevinmao1999 <86262180+kevinmao1999@users.noreply.github.com>
+Date:   Wed Aug 11 22:01:09 2021 -0400
+
+    Delete converting_test_cases.xlsx
+
+commit 073c959d694e40bb18165f81d04f1292fdd26eb5
+Author: kevinmao1999 <86262180+kevinmao1999@users.noreply.github.com>
+Date:   Wed Aug 11 22:01:02 2021 -0400
+
+    Delete converting.h
+
+commit 4cfaa9f81df398e0e4b6d99e3ad8439a5217dc27
+Author: Myungwoo Shim <myungwooshim@gmail.com>
+Date:   Wed Aug 11 22:00:06 2021 -0400
+
+    version 1
+
+commit 14eccacf6c40eb9b7c992545c721be4ab34142bc
+Author: kmao <kevinmao1999@gmail.com>
+Date:   Tue Aug 10 02:14:18 2021 -0400
+
+    first commit of v2
+
+commit ebdcec5ff6a97a7bad23f941168e38b47ccbd4d3
+Author: kevinmao1999 <86262180+kevinmao1999@users.noreply.github.com>
+Date:   Mon Aug 9 20:56:10 2021 -0400
+
+    Initial commit

@@ -1,0 +1,19 @@
+Microsoft Windows [Version 10.0.19042.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\James>cd C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\CPRBb02_final_assignment
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\CPRBb02_final_assignment>git add .
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\CPRBb02_final_assignment>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   manipulating_v2james.c
+        new file:   manipulating_v3.c
+        new file:   test case template V3 James Kapogiannis.xlsx
+
+
+C:\Users\James\Desktop\James\CPR101\CPR Final Assignment\code\CPRBb02_final_assignment>

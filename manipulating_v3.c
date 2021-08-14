@@ -40,5 +40,25 @@ while (TRUE) {     //while loop set to TRUE
     printf("1st string is greater than the 2nd\n");
 } //end of loop
 printf("***End of comparing Strings Demo **\n\n"); //ending statement for program
-} //end of function dec
+ //end of function dec
 
+    printf("*** Start of Searching Strings Demo ***\n");
+    char big_string[80]; //char big string set tp 80
+    char sub_string[80]; //char sub strings set to 80
+    char *address;       //declared char address with pointer
+    while (TRUE)
+    { //Start of while loop only if ture
+        printf("Type the big string (q - to quit);\n");
+        gets(big_string); //Gets first big string
+        if (strcmp(big_string, "q") == 0)
+            break; //if statement for big strings and also quiting statement
+        printf("Type the substring:\n");
+        gets(sub_string);  //Gets first sub string
+        address = strstr(big_string, sub_string); //Address set to big string and sub string
+        if (address != NULL) //if statement if address is not equal to NULL
+            printf("Found at %ld position\n", (long)address - (long)big_string); // long address - long big string
+        else  //else print statement
+            printf("Not Found\n");
+    }
+    printf("Enf of Searching Strings Demo");
+} //end of program

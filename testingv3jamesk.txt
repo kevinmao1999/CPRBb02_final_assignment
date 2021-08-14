@@ -1,0 +1,31 @@
+Testing V3
+
+James K
+
+*** Start of Searching Strings Demo ***
+Type the big string (q - to quit);
+a
+Type the substring:
+a
+Found at 0 position
+Type the big string (q - to quit);
+aaadddcccddd
+Type the substring:
+d
+Found at 3 position
+Type the big string (q - to quit);
+11122233344455556666777788889999
+Type the substring:
+8
+Found at 24 position
+Type the big string (q - to quit);
+!!!@@@###$$$%%%^^^&&&***((()))
+Type the substring:
+^
+Found at 15 position
+Type the big string (q - to quit);
+111111111111111111111111111111111111111111111111111111111111111111111111
+Type the substring:
+1
+Found at 0 position
+Type the big string (q - to quit);
